@@ -16,10 +16,10 @@ ENVIRONMENT=bvt
 ##########################
 
 # the site certificate files (.crt & .key) have to be named after the BASE_URL value
-BASE_URL=nethappy.cf
-LMS_URL=lms.$BASE_URL
-CMS_URL=cms.$BASE_URL
-PREVIEW_URL=preview.$BASE_URL
+BASE_URL=gaoxiaobang.com
+LMS_URL=microsoft.$BASE_URL
+CMS_URL=microsoft-studio.$BASE_URL
+PREVIEW_URL=microsoft-preview.$BASE_URL
 
 # deployment configuration
 # URL-building will be replaced by the use of LMS_URL | CMS_URL (above)
@@ -46,11 +46,11 @@ EDXAPP_EMAIL_TECH_SUPPORT="${PLATFORM_EMAIL}"
 EDXAPP_EMAIL_UNIVERSITY="${PLATFORM_EMAIL}"
 
 # config/versions.yml
-CONFIGURATION_REPO=https://github.com/iovex/edx-configuration.git
+CONFIGURATION_REPO=https://github.com/meitangyanyan/edx-configuration.git
 CONFIGURATION_VERSION=oxa/master.fic
-PLATFORM_REPO=https://github.com/iovex/edx-platform.git
+PLATFORM_REPO=https://github.com/meitangyanyan/edx-platform.git
 PLATFORM_VERSION=oxa/master.fic
-THEME_REPO=https://github.com/iovex/edx-theme.git
+THEME_REPO=https://github.com/meitangyanyan/edx-theme.git
 THEME_VERSION=oxa/master.fic
 EDX_VERSION=open-release/ficus.master
 FORUM_VERSION=open-release/ficus.master
