@@ -458,7 +458,7 @@
             "type": "Microsoft.Insights/autoscaleSettings",
             "name": "[parameters('networkSettings').clusterVirtualMachineScaleSetSettingsName]",
             "apiVersion": "[parameters('apiSettings').insightsApiVersion]",
-            "location": "[resourceGroup().location]",
+            "location": "chinanorth",
             "dependsOn": [
                 "[parameters('networkSettings').clusterVirtualMachineScaleSetName]"
             ],
