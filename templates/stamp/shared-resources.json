@@ -223,7 +223,7 @@
             "type": "Microsoft.Media/mediaservices",
             "name": "[parameters('storageSettings').mediaServicesAccountName]",
             "apiVersion": "[parameters('apiSettings').mediaServicesApiVersion]",
-            "location": "[resourceGroup().location]",
+            "location": "chinanorth",
             "properties": {
                 "storageAccounts": [
                     {
