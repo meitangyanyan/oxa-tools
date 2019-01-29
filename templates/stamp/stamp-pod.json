@@ -229,7 +229,7 @@
             "type": "string",
             "defaultValue": "14.04.0-LTS",
             "allowedValues": [
-                "16.04 LTS",
+                "16.04-LTS",
                 "14.04.0-LTS",
                 "12.04.5-LTS"
             ],
@@ -239,9 +239,9 @@
         },
         "mysqlUbuntuOsImageSku": {
             "type": "string",
-            "defaultValue": "16.04 LTS",
+            "defaultValue": "16.04-LTS",
             "allowedValues": [
-                "16.04 LTS",
+                "16.04-LTS",
                 "14.04.0-LTS",
                 "12.04.5-LTS"
             ],
@@ -251,9 +251,9 @@
         },
         "mongoUbuntuOsImageSku": {
             "type": "string",
-            "defaultValue": "16.04 LTS",
+            "defaultValue": "16.04-LTS",
             "allowedValues": [
-                "16.04 LTS",
+                "16.04-LTS",
                 "14.04.0-LTS",
                 "12.04.5-LTS"
             ],
@@ -263,9 +263,9 @@
         },
         "defaultUbuntuOsImageSku": {
             "type": "string",
-            "defaultValue": "16.04 LTS",
+            "defaultValue": "16.04-LTS",
             "allowedValues": [
-                "16.04 LTS",
+                "16.04-LTS",
                 "14.04.0-LTS",
                 "12.04.5-LTS"
             ],

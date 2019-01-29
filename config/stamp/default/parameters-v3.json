@@ -129,16 +129,16 @@
             "value": "templates/stamp"
         },
         "vmssUbuntuOsImageSku": {
-            "value": "16.04 LTS"
+            "value": "16.04-LTS"
         },
         "mysqlUbuntuOsImageSku": {
-            "value": "16.04 LTS"
+            "value": "16.04-LTS"
         },
         "mongoUbuntuOsImageSku": {
-            "value": "16.04 LTS"
+            "value": "16.04-LTS"
         },
         "defaultUbuntuOsImageSku": {
-            "value": "16.04 LTS"
+            "value": "16.04-LTS"
         },
         "jumpBoxDataDiskSizeGB": {
             "value": 50
